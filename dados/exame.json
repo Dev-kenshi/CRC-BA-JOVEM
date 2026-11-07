@@ -1,0 +1,33 @@
+{
+  "titulo": "Exame de Suficiência 3/2026",
+  "itens": [
+    {
+      "rotulo": "Prova",
+      "valor": "13/12/2026, das 10h às 14h (horário de Brasília)"
+    },
+    {
+      "rotulo": "Questões",
+      "valor": "50"
+    },
+    {
+      "rotulo": "Taxa",
+      "valor": "R$ 199"
+    },
+    {
+      "rotulo": "Inscrições",
+      "valor": "Encerradas em 30/10/2026"
+    },
+    {
+      "rotulo": "Cartão de confirmação",
+      "valor": "Previsto para 07/12/2026"
+    }
+  ],
+  "a_validar": [
+    "Resolução CFC nº 1.798/2026",
+    "Estudantes desde o 5º semestre"
+  ],
+  "fonte": {
+    "texto": "CFC, notícia da terceira edição do Exame de Suficiência 2026",
+    "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+  }
+}

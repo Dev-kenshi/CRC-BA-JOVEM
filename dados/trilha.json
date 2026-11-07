@@ -1,0 +1,45 @@
+{
+  "rascunho": true,
+  "itens": [
+    {
+      "id": 1,
+      "texto": "Conferir se você cursa Ciências Contábeis",
+      "fonte": {
+        "texto": "Rascunho do desenvolvedor, a validar pela comissão",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "id": 2,
+      "texto": "Acompanhar o edital do Exame de Suficiência",
+      "fonte": {
+        "texto": "CFC, notícia da terceira edição do Exame de Suficiência 2026",
+        "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+      }
+    },
+    {
+      "id": 3,
+      "texto": "Conferir a inscrição e a taxa do Exame",
+      "fonte": {
+        "texto": "CFC, notícia da terceira edição do Exame de Suficiência 2026",
+        "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+      }
+    },
+    {
+      "id": 4,
+      "texto": "Participar de um evento do CRC Jovem BA",
+      "fonte": {
+        "texto": "CRCBA, página de eventos",
+        "url": "https://www.crcba.org.br/eventos/"
+      }
+    },
+    {
+      "id": 5,
+      "texto": "Solicitar o registro no CRCBA",
+      "fonte": {
+        "texto": "Rascunho do desenvolvedor, a validar pela comissão",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    }
+  ]
+}

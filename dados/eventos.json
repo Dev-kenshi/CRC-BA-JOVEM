@@ -1,0 +1,44 @@
+{
+  "fuso": "America/Bahia",
+  "utc": "-03:00",
+  "itens": [
+    {
+      "id": "tardezinha-salvador",
+      "titulo": "Tardezinha Contábil Salvador",
+      "cidade": "Salvador",
+      "local": "Sede do CRC Bahia (endereço a validar pela comissão)",
+      "inicio": "2026-11-07T13:00:00-03:00",
+      "fim": "2026-11-07T18:00:00-03:00",
+      "inscricao_url": "https://www.crcba.org.br/eventos/",
+      "programacao": [
+        {
+          "hora": "13h às 18h",
+          "texto": "Tardezinha Contábil Salvador"
+        }
+      ],
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    },
+    {
+      "id": "tardezinha-sudoeste",
+      "titulo": "II Tardezinha Contábil Região Sudoeste",
+      "cidade": "Vitória da Conquista",
+      "local": "SENAC, Vitória da Conquista",
+      "inicio": "2026-11-14T14:30:00-03:00",
+      "fim": "2026-11-14T18:00:00-03:00",
+      "inscricao_url": "https://www.crcba.org.br/eventos/",
+      "programacao": [
+        {
+          "hora": "14h30 às 18h",
+          "texto": "II Tardezinha Contábil Região Sudoeste"
+        }
+      ],
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    }
+  ]
+}

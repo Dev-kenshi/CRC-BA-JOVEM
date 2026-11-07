@@ -1,0 +1,31 @@
+{
+  "itens": [
+    {
+      "id": "tardezinha-salvador",
+      "titulo": "Tardezinha Contábil em Salvador",
+      "resumo": "Encontro do CRC Jovem BA em 07/11/2026, das 13h às 18h, na sede do CRC Bahia. Inscrições em crcba.org.br/eventos.",
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    },
+    {
+      "id": "tardezinha-sudoeste",
+      "titulo": "II Tardezinha Contábil na Região Sudoeste",
+      "resumo": "Encontro em Vitória da Conquista em 14/11/2026, das 14h30 às 18h, no SENAC. Inscrições em crcba.org.br/eventos.",
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    },
+    {
+      "id": "exame-3-2026",
+      "titulo": "Exame de Suficiência 3/2026",
+      "resumo": "Prova em 13/12/2026, das 10h às 14h (horário de Brasília), com 50 questões e taxa de R$ 199. Inscrições encerradas em 30/10. Cartão de confirmação previsto para 07/12.",
+      "fonte": {
+        "texto": "CFC, notícia da terceira edição do Exame de Suficiência 2026",
+        "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+      }
+    }
+  ]
+}

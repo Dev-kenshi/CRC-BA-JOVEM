@@ -1,0 +1,121 @@
+{
+  "itens": [
+    {
+      "slug": "salvador",
+      "nome": "Salvador",
+      "lat": -12.9714,
+      "lon": -38.5014,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "feira-de-santana",
+      "nome": "Feira de Santana",
+      "lat": -12.2664,
+      "lon": -38.9663,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "vitoria-da-conquista",
+      "nome": "Vitória da Conquista",
+      "lat": -14.8615,
+      "lon": -40.8442,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "itabuna",
+      "nome": "Itabuna",
+      "lat": -14.7876,
+      "lon": -39.2781,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "alagoinhas",
+      "nome": "Alagoinhas",
+      "lat": -12.1356,
+      "lon": -38.4196,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "barreiras",
+      "nome": "Barreiras",
+      "lat": -12.1527,
+      "lon": -44.99,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "irece",
+      "nome": "Irecê",
+      "lat": -11.3033,
+      "lon": -41.8531,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "juazeiro",
+      "nome": "Juazeiro",
+      "lat": -9.4162,
+      "lon": -40.5033,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "slug": "eunapolis",
+      "nome": "Eunápolis",
+      "lat": -16.3715,
+      "lon": -39.5822,
+      "contato": "a validar pela comissão",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    }
+  ],
+  "acoes": [
+    {
+      "nome": "Valença",
+      "texto": "Ações do CRC Jovem BA.",
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    },
+    {
+      "nome": "Petrolina",
+      "texto": "Ações com o CRC de Pernambuco.",
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    }
+  ]
+}

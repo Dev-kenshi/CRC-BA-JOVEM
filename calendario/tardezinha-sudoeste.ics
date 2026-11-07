@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CRC Jovem BA//Proposta//PT-BR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Bahia
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-0300
+TZOFFSETTO:-0300
+TZNAME:-03
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tardezinha-sudoeste@crcjovemba.example
+DTSTAMP:20261106T120000Z
+DTSTART;TZID=America/Bahia:20261114T143000
+DTEND;TZID=America/Bahia:20261114T180000
+SUMMARY:II Tardezinha Contábil Região Sudoeste
+LOCATION:SENAC\, Vitória da Conquista
+DESCRIPTION:Inscrições em https://www.crcba.org.br/eventos/ (proposta de demonstração)
+URL:https://www.crcba.org.br/eventos/
+END:VEVENT
+END:VCALENDAR

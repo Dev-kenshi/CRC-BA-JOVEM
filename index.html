@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CRC Jovem BA: eventos, Exame de Suficiência e cartão (proposta)</title>
+<meta name="description" content="Proposta de site do CRC Jovem BA. Subcomissões da Bahia, eventos com contagem, Exame de Suficiência, trilha do estudante e gerador de cartão.">
+<meta name="theme-color" content="#154377">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="CRC Jovem BA (proposta)">
+<meta property="og:title" content="CRC Jovem BA: conectando o estudante ao sistema CFC/CRC">
+<meta property="og:description" content="Proposta de demonstração, sem aprovação da comissão. Eventos, Exame de Suficiência, trilha e cartão.">
+<meta property="og:url" content="https://dev-kenshi.github.io/CRC-BA-JOVEM/">
+<meta property="og:image" content="https://dev-kenshi.github.io/CRC-BA-JOVEM/assets/logo-crc-jovem.png">
+<meta property="og:image:alt" content="Logo do CRC Jovem BA">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="CRC Jovem BA: conectando o estudante ao sistema CFC/CRC">
+<meta name="twitter:description" content="Proposta de demonstração, sem aprovação da comissão. Eventos, Exame de Suficiência, trilha e cartão.">
+<meta name="twitter:image" content="https://dev-kenshi.github.io/CRC-BA-JOVEM/assets/logo-crc-jovem.png">
+<meta name="twitter:image:alt" content="Logo do CRC Jovem BA">
+<link rel="canonical" href="https://dev-kenshi.github.io/CRC-BA-JOVEM/">
+<link rel="icon" type="image/png" href="assets/logo-crc-jovem.png">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<a class="pular" href="#conteudo" data-pular>Pular para o conteúdo</a>
+
+<div class="proposta" data-proposta role="note">PROPOSTA: versão de demonstração, sem aprovação da comissão</div>
+
+<div class="faixa-aviso" data-aviso-armazenamento role="region" aria-label="Aviso de armazenamento">
+  <p>Este site guarda no seu navegador só o progresso da trilha e este aviso. Não há cookies de rastreio.</p>
+  <button type="button" class="botao" data-aviso-ok>Entendi</button>
+</div>
+
+<header class="topo">
+  <div class="topo-in">
+    <a class="marca" href="#terra" aria-label="CRC Jovem BA, início">
+      <img src="assets/logo-crc-jovem.png" alt="Logo do CRC Jovem BA" width="56" height="56">
+      <span>CRC Jovem BA</span>
+    </a>
+    <button type="button" class="menu-botao" data-menu-botao aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" class="menu" data-menu aria-label="Menu principal" tabindex="-1">
+      <ul>
+        <li><a href="#subcomissoes" data-nav="subcomissoes">Subcomissões</a></li>
+        <li><a href="#servicos" data-nav="servicos">Serviços</a></li>
+        <li><a href="#eventos" data-nav="eventos">Eventos</a></li>
+        <li><a href="#exame" data-nav="exame">Exame</a></li>
+        <li><a href="#inscricao" data-nav="inscricao">Inscrição</a></li>
+        <li><a href="#cartao" data-nav="cartao">Cartão</a></li>
+        <li><a href="#trilha" data-nav="trilha">Trilha</a></li>
+        <li><a href="#noticias" data-nav="noticias">Notícias</a></li>
+        <li><a href="#ouvidoria" data-nav="ouvidoria">Ouvidoria</a></li>
+        <li><a href="#transparencia" data-nav="transparencia">Transparência</a></li>
+        <li><a href="#faq" data-nav="faq">FAQ</a></li>
+        <li><a href="#assistente" data-nav="assistente">Assistente</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo" tabindex="-1">
+
+<div class="terra-bloco" id="terra" data-terra>
+  <div class="terra-palco" data-terra-palco aria-hidden="true"></div>
+  <div class="terra-alt" data-terra-alternativa hidden></div>
+
+  <section class="heroi" aria-labelledby="titulo-principal">
+    <p class="rotulo">Comissão da Jovem Liderança da Bahia</p>
+    <h1 id="titulo-principal">Conectando o estudante ao sistema CFC/CRC</h1>
+    <p class="heroi-texto">Eventos, Exame de Suficiência, trilha até o registro e um cartão para divulgar. Tudo num só lugar. O site do CRCBA entra só quando for preciso.</p>
+    <p class="heroi-acoes">
+      <a class="botao" href="#eventos">Ver eventos</a>
+      <a class="botao botao-claro" href="#cartao">Criar meu cartão</a>
+    </p>
+  </section>
+
+  <section class="secao subcom" id="subcomissoes" aria-labelledby="titulo-subcomissoes">
+    <h2 id="titulo-subcomissoes">Subcomissões na Bahia</h2>
+    <div class="subcom-grade">
+      <div class="painel">
+        <p>Nove cidades têm subcomissão. Escolha uma para girar a Terra até ela.</p>
+        <ul class="lista-cidades" data-lista="cidades"></ul>
+        <p class="nota">Ações também em Valença e em Petrolina (com o CRC de Pernambuco). Contatos de cada subcomissão: <span class="selo" data-a-validar>a validar pela comissão</span></p>
+      </div>
+      <div class="painel foco-painel">
+        <p class="rotulo">Em foco</p>
+        <p class="foco" data-terra-foco aria-live="polite">Bahia</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="secao" id="servicos" aria-labelledby="titulo-servicos">
+  <h2 id="titulo-servicos">Serviços do CRCBA</h2>
+  <p class="intro">Links oficiais. Abrem em outra aba.</p>
+  <ul class="grade-servicos">
+    <li><a class="servico" data-servico="consulta-cadastral" href="https://servicos.crcba.org.br/spw/Consultacadastral/Principal.aspx" target="_blank" rel="noopener"><strong>Consulta cadastral</strong><span>Confira um registro no CRCBA</span></a></li>
+    <li><a class="servico" data-servico="anuidade" href="https://www.crcba.org.br/anuidade/" target="_blank" rel="noopener"><strong>Anuidade</strong><span>Valores e prazos</span></a></li>
+    <li><a class="servico" data-servico="beneficios" href="https://www.crcba.org.br/beneficios/" target="_blank" rel="noopener"><strong>Benefícios</strong><span>Vantagens para o profissional</span></a></li>
+    <li><a class="servico" data-servico="eventos" href="https://www.crcba.org.br/eventos/" target="_blank" rel="noopener"><strong>Eventos</strong><span>Agenda e inscrições</span></a></li>
+    <li><a class="servico" data-servico="contato" href="https://www.crcba.org.br/contato/" target="_blank" rel="noopener"><strong>Contato</strong><span>Fale com o CRCBA</span></a></li>
+    <li><a class="servico" data-servico="certidao-negativa" href="https://www.crcba.org.br/certidao-negativa/" target="_blank" rel="noopener"><strong>Certidão negativa</strong><span>Emissão da certidão</span></a></li>
+    <li><a class="servico" data-servico="crcba-jovem" href="https://www.crcba.org.br/crcba-jovem/" target="_blank" rel="noopener"><strong>CRCBA Jovem</strong><span>Página oficial da comissão</span></a></li>
+  </ul>
+</section>
+
+<section class="secao" id="eventos" aria-labelledby="titulo-eventos">
+  <h2 id="titulo-eventos">Eventos</h2>
+  <p class="intro">Contagem regressiva no horário da Bahia.</p>
+  <div class="lista-eventos" data-lista="eventos"></div>
+
+  <div class="duas-colunas">
+    <div class="painel" id="programacao">
+      <h3>Programação</h3>
+      <p class="nota">Só entram os horários confirmados.</p>
+      <div data-lista="programacao"></div>
+    </div>
+    <div class="painel" id="convidados">
+      <h3>Convidados</h3>
+      <p>Lista de convidados: <span class="selo" data-a-validar>a validar pela comissão</span></p>
+    </div>
+    <div class="painel" id="local" data-local>
+      <h3>Local</h3>
+      <p>Salvador: sede do CRC Bahia. Endereço <span class="selo" data-a-validar>a validar pela comissão</span></p>
+      <p>Vitória da Conquista: SENAC.</p>
+      <p><a class="botao botao-claro" data-mapa href="https://www.openstreetmap.org/search?query=CRC%20Bahia%20Salvador" target="_blank" rel="noopener">Abrir mapa em outra aba</a></p>
+      <p class="nota">O mapa só carrega se você clicar. Nada é rastreado aqui.</p>
+    </div>
+  </div>
+</section>
+
+<section class="secao" id="exame" data-exame aria-labelledby="titulo-exame">
+  <h2 id="titulo-exame">Exame de Suficiência 3/2026</h2>
+  <div class="painel">
+    <div data-lista="exame"></div>
+    <p>Fonte oficial: <a data-exame-fonte href="https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/" target="_blank" rel="noopener">CFC, notícia da terceira edição de 2026</a></p>
+    <p class="nota">Resolução CFC nº 1.798/2026 e estudantes desde o 5º semestre: <span class="selo" data-a-validar>a validar pela comissão</span>. Confira no edital.</p>
+  </div>
+</section>
+
+<section class="secao" id="inscricao" aria-labelledby="titulo-inscricao">
+  <h2 id="titulo-inscricao">Inscrição nos eventos</h2>
+  <div class="painel">
+    <p>A inscrição é feita no site oficial do CRCBA.</p>
+    <p class="acoes">
+      <a class="botao" data-inscricao-link href="https://www.crcba.org.br/eventos/" target="_blank" rel="noopener">Inscrever-se no CRCBA</a>
+      <a class="botao botao-claro" data-whatsapp href="https://wa.me/?text=Inscreva-se%20nos%20eventos%20do%20CRC%20Jovem%20BA%3A%20https%3A%2F%2Fwww.crcba.org.br%2Feventos%2F" target="_blank" rel="noopener">Compartilhar no WhatsApp</a>
+      <button type="button" class="botao botao-claro" data-copiar-link>Copiar link</button>
+      <button type="button" class="botao botao-claro" data-qr-abrir>Mostrar QR Code</button>
+    </p>
+    <p class="status" data-copiar-status aria-live="polite"></p>
+    <img class="qr" data-qr-imagem hidden width="200" height="200" alt="QR Code do link de inscrição nos eventos do CRCBA" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+  </div>
+</section>
+
+<section class="secao" id="cartao" aria-labelledby="titulo-cartao">
+  <h2 id="titulo-cartao">Gerador de cartão</h2>
+  <p class="intro">Seu nome e sua foto ficam só neste navegador. Nada é enviado.</p>
+  <div class="cartao-grade">
+    <form class="painel" onsubmit="return false" aria-label="Dados do cartão">
+      <div class="campo">
+        <label for="cartao-nome">Seu nome</label>
+        <input id="cartao-nome" type="text" maxlength="24" autocomplete="off" aria-describedby="cartao-contador">
+        <p class="nota" id="cartao-contador" data-cartao-contador>0/24</p>
+      </div>
+
+      <fieldset class="campo">
+        <legend>Frases prontas <span class="selo" data-a-validar>a validar pela comissão</span></legend>
+        <div class="frases" data-lista="frases"></div>
+      </fieldset>
+
+      <div class="campo">
+        <label for="cartao-frase-propria">Ou escreva sua frase (até 80 caracteres)</label>
+        <input id="cartao-frase-propria" type="text" maxlength="80" autocomplete="off">
+        <p><button type="button" class="botao botao-claro" data-frase-usar>Usar frase</button></p>
+      </div>
+
+      <div class="campo">
+        <label for="cartao-foto">Sua foto (opcional)</label>
+        <div class="foto-campo">
+          <input id="cartao-foto" class="foto-input" type="file" accept="image/*" data-foto aria-describedby="cartao-foto-nome">
+          <label for="cartao-foto" class="botao botao-claro foto-botao">Escolher foto</label>
+          <span class="foto-nome" id="cartao-foto-nome" data-foto-nome aria-live="polite">Nenhuma foto escolhida</span>
+        </div>
+      </div>
+
+      <fieldset class="campo">
+        <legend>Formato</legend>
+        <div class="acoes">
+          <button type="button" class="botao botao-claro" data-formato="feed" aria-pressed="true">Feed 4:5</button>
+          <button type="button" class="botao botao-claro" data-formato="stories" aria-pressed="false">Stories 9:16</button>
+        </div>
+      </fieldset>
+
+      <p class="acoes">
+        <button type="button" class="botao" data-baixar-png>Baixar PNG</button>
+        <button type="button" class="botao botao-claro" data-compartilhar>Compartilhar</button>
+        <button type="button" class="botao botao-claro" data-gerar-video>Gerar vídeo para Stories</button>
+      </p>
+      <p class="status" data-video-status aria-live="polite"></p>
+      <p class="erro" data-cartao-erro role="alert"></p>
+    </form>
+
+    <div class="previa">
+      <p class="rotulo">Prévia: <span data-cartao-previa-nome>seu nome aqui</span></p>
+      <canvas class="cartao-canvas" data-cartao-canvas data-formato="feed" data-largura="1080" data-altura="1350" width="1080" height="1350" role="img" aria-label="Prévia do cartão do CRC Jovem BA"></canvas>
+    </div>
+  </div>
+</section>
+
+<section class="secao" id="trilha" aria-labelledby="titulo-trilha">
+  <h2 id="titulo-trilha">Trilha do estudante ao registro</h2>
+  <p class="intro">Passos em rascunho, <span class="selo" data-a-validar>a validar pela comissão</span>.</p>
+  <div class="painel">
+    <ol class="trilha-lista" data-lista="trilha"></ol>
+    <p class="trilha-resumo">Progresso: <strong data-trilha-progresso>0 de 5</strong> <span class="status" data-trilha-salvo hidden>Salvo neste navegador</span></p>
+    <p><button type="button" class="botao botao-claro" data-trilha-limpar>Limpar trilha</button></p>
+  </div>
+</section>
+
+<section class="secao" id="noticias" aria-labelledby="titulo-noticias">
+  <h2 id="titulo-noticias">Notícias</h2>
+  <p class="intro">Só itens com fonte confirmada.</p>
+  <div class="lista-noticias" data-lista="noticias"></div>
+</section>
+
+<section class="secao" id="ouvidoria" aria-labelledby="titulo-ouvidoria">
+  <h2 id="titulo-ouvidoria">Ouvidoria</h2>
+  <div class="painel">
+    <p>Este site não recebe denúncia. Para denunciar, use o canal oficial do CRCBA.</p>
+    <p><a class="botao" data-ouvidoria-denuncia href="https://servicos.crcba.org.br/spw/Sfiv2/Denuncia/Denuncia" target="_blank" rel="noopener">Ir à denúncia oficial</a></p>
+  </div>
+</section>
+
+<section class="secao" id="transparencia" aria-labelledby="titulo-transparencia">
+  <h2 id="titulo-transparencia">Transparência</h2>
+  <div class="painel">
+    <p>As informações de transparência ficam no portal do CRCBA.</p>
+    <p><a class="botao" data-transparencia href="https://www.crcba.org.br/transparencia/" target="_blank" rel="noopener">Abrir portal da transparência</a></p>
+    <p class="nota">Endereço exato da página: <span class="selo" data-a-validar>a validar pela comissão</span></p>
+  </div>
+</section>
+
+<section class="secao" id="faq" aria-labelledby="titulo-faq">
+  <h2 id="titulo-faq">Perguntas frequentes</h2>
+  <div class="lista-faq" data-lista="faq"></div>
+</section>
+
+<section class="secao" id="assistente" aria-labelledby="titulo-assistente">
+  <h2 id="titulo-assistente">Assistente</h2>
+  <p class="intro">Responde só com os dados oficiais deste site. Sem IA paga. Atalho: alt+3.</p>
+  <div class="painel">
+    <p class="boas-vindas">Olá. Pergunte sobre eventos, Exame, subcomissões ou trilha.</p>
+    <form class="assistente-form" data-assistente-form>
+      <label for="assistente-pergunta">Sua pergunta</label>
+      <div class="linha">
+        <input id="assistente-pergunta" type="text" autocomplete="off">
+        <button type="submit" class="botao" data-assistente-enviar>Perguntar</button>
+      </div>
+      <p class="erro" data-assistente-erro aria-live="polite"></p>
+    </form>
+    <div class="respostas" data-lista="respostas" aria-live="polite"></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">
+  <div class="rodape-in">
+    <div>
+      <p><strong>CRC Jovem BA</strong>: Comissão da Jovem Liderança da Bahia.</p>
+      <p>Atendimento: <a href="https://wa.me/557121094000" target="_blank" rel="noopener">WhatsApp (71) 2109-4000</a> e <a href="mailto:atendimento@crc-ba.org.br">atendimento@crc-ba.org.br</a></p>
+      <p class="nota">Proposta de demonstração. Marca e dados do CRCBA usados sem aprovação da comissão.</p>
+    </div>
+    <div>
+      <p><button type="button" class="botao botao-claro" data-privacidade-abrir>Privacidade</button></p>
+      <p><a href="acessibilidade.html">Acessibilidade e atalhos</a></p>
+    </div>
+  </div>
+  <p class="credito" data-credito>Emanuel Macêdo Luz, desenvolvedor do projeto</p>
+</footer>
+
+<section class="privacidade" data-privacidade hidden role="dialog" aria-modal="false" aria-labelledby="titulo-privacidade" tabindex="-1">
+  <h2 id="titulo-privacidade">Privacidade e LGPD</h2>
+  <p>Este site segue a Lei Geral de Proteção de Dados (LGPD, Lei 13.709/2018). Texto em revisão <span class="selo" data-a-validar>a validar pela comissão</span>.</p>
+  <ul>
+    <li>A foto e o nome do cartão não saem do seu navegador.</li>
+    <li>Não há cookies de rastreio.</li>
+    <li>Só usamos localStorage para a trilha e para este aviso.</li>
+    <li>Links externos só abrem quando você clica.</li>
+  </ul>
+  <p><button type="button" class="botao" data-privacidade-fechar>Fechar</button></p>
+</section>
+
+<script src="vendor/qrcode.js"></script>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

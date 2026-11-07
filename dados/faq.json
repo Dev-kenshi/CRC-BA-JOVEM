@@ -1,0 +1,60 @@
+{
+  "itens": [
+    {
+      "pergunta": "O que é o CRC Jovem BA?",
+      "resposta": "É a Comissão da Jovem Liderança da Bahia. Acolhe e integra jovens profissionais e estudantes, com encontros, troca de experiências, liderança e empreendedorismo.",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "pergunta": "Como me inscrevo nos eventos?",
+      "resposta": "Pelo site oficial do CRCBA, em crcba.org.br/eventos. Este site traz o link, o QR Code e o botão de compartilhar.",
+      "fonte": {
+        "texto": "CRCBA, página de eventos",
+        "url": "https://www.crcba.org.br/eventos/"
+      }
+    },
+    {
+      "pergunta": "Quando é a prova do Exame de Suficiência 3/2026?",
+      "resposta": "Em 13/12/2026, das 10h às 14h em Brasília, com 50 questões. As inscrições encerraram em 30/10.",
+      "fonte": {
+        "texto": "CFC, notícia da terceira edição do Exame de Suficiência 2026",
+        "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+      }
+    },
+    {
+      "pergunta": "Quanto custa a taxa do Exame de Suficiência 3/2026?",
+      "resposta": "R$ 199, segundo a notícia do CFC.",
+      "fonte": {
+        "texto": "CFC, notícia da terceira edição do Exame de Suficiência 2026",
+        "url": "https://cfc.org.br/noticias/cfc-abre-inscricoes-para-terceira-edicao-inedita-do-exame-de-suficiencia-em-2026/"
+      }
+    },
+    {
+      "pergunta": "Onde há subcomissões do CRC Jovem BA?",
+      "resposta": "Salvador, Feira de Santana, Vitória da Conquista, Itabuna, Alagoinhas, Barreiras, Irecê, Juazeiro e Eunápolis. Há ações em Valença e Petrolina.",
+      "fonte": {
+        "texto": "CRCBA, página do CRCBA Jovem",
+        "url": "https://www.crcba.org.br/crcba-jovem/"
+      }
+    },
+    {
+      "pergunta": "Como falo com o CRCBA?",
+      "resposta": "Pelo WhatsApp (71) 2109-4000 ou pelo e-mail atendimento@crc-ba.org.br.",
+      "fonte": {
+        "texto": "Instagram @crcjovemba, lido em 06/11/2026",
+        "url": "https://www.instagram.com/crcjovemba/"
+      }
+    },
+    {
+      "pergunta": "Onde faço uma denúncia?",
+      "resposta": "Este site não recebe denúncia. Use o canal oficial de denúncia do CRCBA, ligado na seção Ouvidoria.",
+      "fonte": {
+        "texto": "CRCBA, denúncia",
+        "url": "https://servicos.crcba.org.br/spw/Sfiv2/Denuncia/Denuncia"
+      }
+    }
+  ]
+}
